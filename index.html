@@ -38,6 +38,17 @@
 .sora-font{
     font-family: "Sora", serif;
 }
+
+#pic-1 {
+    transition: width 5s liner infinite;
+  
+}
+#pic-2 {
+  animation: slide 2s infinite;
+}
+#pic {
+
+}
 </style>
 <!-- Font Awesome CDN -->
 
@@ -155,13 +166,21 @@
 
 <section class="bg-gradient-to-r from-yellow-100 orange-50 to-amber-300 pb-5" >
     <!-- animation section -->
-    <div class="bg-black rounded-full p-2">
-      <img src="image/dog-cartoon.png" alt="">  
+<div id="pic" class="space-y-4 flex justify-between pt-5">
+    <div class="animate-bounce my-auto ">
+    <div id="pic-1" class="pl-20 flex justify-center " >
+      <img src="image/dog-cartoon.png" alt=""class="bg-white rounded-full p-2 ">  
     </div>
-
+    </div>
+    <div class="animate-bounce">
+    <div id="pic-2" class="flex justify-end pr-20 " >
+      <img src="image/cat-cartoon.png" alt=""class="bg-white rounded-full p-2">  
+    </div>
+    </div>
+</div>
 
     <h1 class="text-black-200  text-6xl font-bold text-center mb-10 pt-40 ">Offer time remaining</h1>
-    <div class="max-w-screen-xl mx-auto  bg-m-200 p-20 rounded-2xl w-[400px] shadow-xl shadow-red-300 border border-current">
+    <div class="max-w-screen-xl mx-auto  bg-m-200 p-20 rounded-2xl w-[400px] shadow-xl  border border-current animate-spin">
         
         <div class="flex gap-5 ">
             <div>
