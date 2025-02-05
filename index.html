@@ -57,12 +57,12 @@
 <nav class="flex items-center   justify-between  h-28">
     <div class="flex items-center space-x-4 text-2xl">
         <img src="image/logo-header.png" alt="" class="">
-        <p class="pl-2">Browse<span class="text-orange-300">4</span>Pets</p>
+        <p class="pl-2 font-semibold ">Browse<span class="text-orange-300">4</span>Pets</p>
     </div>
     <div>
-        <ul class="flex items-center space-x-4 text-2xl">
-            <li class=""><a href="" >
-                find a pet</a>F</li>
+        <ul class="flex items-center space-x-14 text-2xl">
+            <li><a href="">Find a pet
+            </a></li>
             <li> <a href="">Breeds</a></li>
             <li><a href="">Contact us</a> </li>
         </ul>
@@ -70,8 +70,8 @@
     <div class="flex items-center space-x-4 text-2xl">
         <i class="fa-regular fa-bell"></i>
         <i class="fa-solid fa-magnifying-glass"></i>
-        <button class="border border-orange-300 rounded-md p-5 hover:bg-orange-300 ">Login</button>
-        <button class="bg-yellow-300  rounded-md p-5 hover:bg-orange-300  ">Register</button>
+        <button class="border border-orange-300 rounded-md p-5 hover:bg-orange-300 font-semibold ">Login</button>
+        <button class="bg-yellow-300  rounded-md p-5 hover:bg-orange-300 font-semibold  ">Register</button>
     </div>
 </nav>
 </div>
@@ -83,14 +83,14 @@
 
 <div class=" flex justify-between space-x-1" >
     <div class="space-y-6 " >
-        <h1 class="text-6xl adlam-font ">Pamper Your Pet,<br>
+        <h1 class="text-5xl adlam-font w-[450px]">Pamper Your Pet,<br>
         Because They Deserve <br>
         the Best</h1>
-        <p class="text-gray-500 ">
-            Discover a world of treats, toys, and essentials handpicked for <br>
+        <p class="text-gray-500 text-[13px]">
+            Discover a world of treats, toys, and essentials handpicked for  <br>
             your furry friends. Shop now and make tails wag with joy!
         </p>
-        <button class="bg-yellow-300 hover:bg-orange-300  rounded-md p-5 text-2xl ">Find a pet</button>
+        <button class="bg-yellow-300 hover:bg-orange-300  rounded-md p-5 text-2xl font-semibold ">Find a pet</button>
     </div>
     <div class=" ">
         <img src="image/cat-big.png" alt="" class="w-[1000px] h-[]" >
@@ -149,11 +149,217 @@
 </div>
 </div>
 </section>
+  
+
+<!-- My own section -->
+
+<section class="bg-gradient-to-r from-yellow-100 orange-50 to-amber-300 pb-5" >
+    <h1 class="text-black-200  text-6xl font-bold text-center mb-10 pt-40 ">Offer time remaining</h1>
+    <div class="max-w-screen-xl mx-auto  bg-m-200 p-20 rounded-2xl w-[400px] shadow-xl shadow-red-300 border border-current">
+        
+        <div class="flex gap-5 ">
+            <div>
+            <span class="countdown font-mono text-4xl">
+                <span style="--value:15;"></span>
+            </span>
+            days
+            </div>
+            <div>
+            <span class="countdown font-mono text-4xl">
+                <span style="--value:10;"></span>
+            </span>
+            hours
+            </div>
+            <div>
+            <span class="countdown font-mono text-4xl">
+                <span style="--value:24;"></span>
+            </span>
+            min
+            </div>
+            <div>
+            <span class="countdown font-mono text-4xl">
+                <span style="--value:${counter};"></span>
+            </span>
+            sec
+            </div>
+        </div>
+    </div>
+<h1 class="text-black-200  text-6xl font-bold text-center mb-10 pt-40 ">
+    Cute pets for sale
+</h1>
+
+    <div class="max-w-screen-xl mx-auto bg-m-200 p-20 rounded-2xl w-[500px] shadow-xl shadow-red-300 border border-current">
+
+        <div class="carousel ">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img
+                src="image/1.jpg"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide4" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+              <img
+                src="image/2.jpg"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide1" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+              <img
+                src="image/3.jpg"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide4" class="carousel-item relative w-full">
+              <img
+                src="image/cat-big.png"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide3" class="btn btn-circle">❮</a>
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
 
 
 
+    </div>
+</section>
+<!-- Product Section -->
+<section class="bg-yellow-50 ">
 
+<div class="max-w-screen-xl mx-auto pb-[140px]">
+    <div class="text-4xl font-bold text-start pt-[140px] ">
+        <h1>Trending Pet Products</h1>
+    </div>
+    <div class="mt-10 flex justify-evenly gap-2">
+        <div class="h-[402px] w-[402px] bg-amber-200 flex rounded-xl">
+        <div class="pt-20 pl-8 " >
+            <h2 class="text-3xl font-bold text-start">T-Shirt For Dogs</h2>
+            <p class="text-gray-500 text-[15px] pt-3 font-semibold   ">Discover a  world of treats, toys,and <br> 
+            essentials handpicked for </p>
+            <button class="bg-white  rounded-md p-5 hover:bg-orange-300 text-black font-semibold text-xl mt-8">Shop Now</button>
+        </div>
+        <div>
+            <img src="image/cute-pet-mid.png" alt="" class="w-[450px]  h-[200px] mx-auto pr-20 mt-64 ">
+        </div>
+        </div>
+        <div class="grid grid-cols-3 gap-4">
+            <!-- one -->
+            <div class="w-[275px] h-[118px] bg-white flex space-y-4 rounded-xl items-center space-x-4 p-5 shadow-sm border border-black border-opacity-10">
+                <div class="py-[16px]"><img src="image/dog-cartoon.png" alt="" class="py-auto bg-amber-50 rounded-2xl "></div>
+                <div class="space-y-2 pl-8">
+                    <div class="flex">
+                        <div><i class="fa-solid fa-star"></i></div>
+                        <div>4.5</div>
+                    </div>
+                    <h3 class="font-semibold text-[20px]">Pet Bed</h3>
+                    <p class="text-[15px]">$39.99</p>
+                </div>
+            </div>
+            <div class="w-[275px] h-[118px] bg-white flex space-y-4 rounded-xl items-center space-x-4 p-5 shadow-sm border border-black border-opacity-10">
+                <div class="py-[16px]"><img src="image/cat-cartoon.png" alt="" class="py-auto bg-amber-50 rounded-2xl "></div>
+                <div class="space-y-2 pl-8">
+                    <div class="flex">
+                        <div><i class="fa-solid fa-star"></i></div>
+                        <div>4.5</div>
+                    </div>
+                    <h3 class="font-semibold text-[20px]">Pet Bed</h3>
+                    <p class="text-[15px]">$39.99</p>
+                </div>
+            </div>
+            <div class="w-[275px] h-[118px] bg-white flex space-y-4 rounded-xl items-center space-x-4 p-5 shadow-sm border border-black border-opacity-10">
+                <div class="py-[16px]"><img src="image/bird-cartoon.png" alt="" class="py-auto bg-amber-50 rounded-2xl "></div>
+                <div class="space-y-2 pl-8">
+                    <div class="flex">
+                        <div><i class="fa-solid fa-star"></i></div>
+                        <div>4.5</div>
+                    </div>
+                    <h3 class="font-semibold text-[20px]">Pet Bed</h3>
+                    <p class="text-[15px]">$39.99</p>
+                </div>
+            </div>
+            <div class="w-[275px] h-[118px] bg-white flex space-y-4 rounded-xl items-center space-x-4 p-5 shadow-sm border border-black border-opacity-10">
+                <div class="py-[16px]"><img src="image/fish-cartoon.png" alt="" class="py-auto bg-amber-50 rounded-2xl "></div>
+                <div class="space-y-2 pl-8">
+                    <div class="flex">
+                        <div><i class="fa-solid fa-star"></i></div>
+                        <div>4.5</div>
+                    </div>
+                    <h3 class="font-semibold text-[20px]">Pet Bed</h3>
+                    <p class="text-[15px]">$39.99</p>
+                </div>
+            </div>
+            <div class="w-[275px] h-[118px] bg-white flex space-y-4 rounded-xl items-center space-x-4 p-5 shadow-sm border border-black border-opacity-10">
+                <div class="py-[16px]"><img src="image/mouse-cartoon.png" alt="" class="py-auto bg-amber-50 rounded-2xl "></div>
+                <div class="space-y-2 pl-8">
+                    <div class="flex">
+                        <div><i class="fa-solid fa-star"></i></div>
+                        <div>4.5</div>
+                    </div>
+                    <h3 class="font-semibold text-[20px]">Pet Bed</h3>
+                    <p class="text-[15px]">$39.99</p>
+                </div>
+            </div>
+            <div class="w-[275px] h-[118px] bg-white flex space-y-4 rounded-xl items-center space-x-4 p-5 shadow-sm border border-black border-opacity-10">
+                <div class="py-[16px]"><img src="image/cat-cartoon.png" alt="" class="py-auto bg-amber-50 rounded-2xl "></div>
+                <div class="space-y-2 pl-8">
+                    <div class="flex">
+                        <div><i class="fa-solid fa-star"></i></div>
+                        <div>4.5</div>
+                    </div>
+                    <h3 class="font-semibold text-[20px]">Pet Bed</h3>
+                    <p class="text-[15px]">$39.99</p>
+                </div>
+            </div>
+            <div class="w-[275px] h-[118px] bg-white flex space-y-4 rounded-xl items-center space-x-4 p-5 shadow-sm border border-black border-opacity-10">
+                <div class="py-[16px]"><img src="image/rabbit-cartoon.png" alt="" class="py-auto bg-amber-50 rounded-2xl "></div>
+                <div class="space-y-2 pl-8">
+                    <div class="flex">
+                        <div><i class="fa-solid fa-star"></i></div>
+                        <div>4.5</div>
+                    </div>
+                    <h3 class="font-semibold text-[20px]">Pet Bed</h3>
+                    <p class="text-[15px]">$39.99</p>
+                </div>
+            </div>
+            <div class="w-[275px] h-[118px] bg-white flex space-y-4 rounded-xl items-center space-x-4 p-5 shadow-sm border border-black border-opacity-10">
+                <div class="py-[16px]"><img src="image/fish-cartoon.png" alt="" class="py-auto bg-amber-50 rounded-2xl "></div>
+                <div class="space-y-2 pl-8">
+                    <div class="flex">
+                        <div><i class="fa-solid fa-star"></i></div>
+                        <div>4.5</div>
+                    </div>
+                    <h3 class="font-semibold text-[20px]">Pet Bed</h3>
+                    <p class="text-[15px]">$39.99</p>
+                </div>
+            </div>
+            <div class="w-[275px] h-[118px] bg-white flex space-y-4 rounded-xl items-center space-x-4 p-5 shadow-sm border border-black border-opacity-10">
+                <div class="py-[16px]"><img src="image/pet-couch.png" alt="" class="py-auto bg-amber-50 rounded-2xl "></div>
+                <div class="space-y-2 pl-8">
+                    <div class="flex">
+                        <div><i class="fa-solid fa-star"></i></div>
+                        <div>4.5</div>
+                    </div>
+                    <h3 class="font-semibold text-[20px]">Pet Bed</h3>
+                    <p class="text-[15px]">$39.99</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+</section>
 
+<!-- low price section -->
 
 
 
