@@ -1,11 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+    <!-- Tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+            colors: {
+                primary:'#111111',
+            }
+            }
+        }
+        }
+    </script>
+    <!-- DaisyUI cdn -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+
+    <!-- Google font CDN -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+<style>
+.adlam-font {
+    font-family: "ADLaM Display", serif;} 
+.sora-font{
+    font-family: "Sora", serif;
+}
+</style>
+<!-- Font Awesome CDN -->
+
+<script src="https://kit.fontawesome.com/04ae949980.js" crossorigin="anonymous"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Pets</title>
 </head>
-<body>
+<body class="sora-font ">
     
+    <!-- Head Section -->
+
+    <!-- navbar section -->
+<section class="bg-orange-50 ">
+<div class="max-w-screen-xl mx-auto">
+<nav class="flex items-center   justify-between  h-28">
+    <div class="flex items-center space-x-4 text-2xl">
+        <img src="image/logo-header.png" alt="" class="">
+        <p class="pl-2">Browse<span class="text-orange-300">4</span>Pets</p>
+    </div>
+    <div>
+        <ul class="flex items-center space-x-4 text-2xl">
+            <li class=""><a href="" >ind a pet</a>F</li>
+            <li> <a href="">Breeds</a></li>
+            <li><a href="">Contact us</a> </li>
+        </ul>
+    </div>
+    <div class="flex items-center space-x-4 text-2xl">
+        <i class="fa-regular fa-bell"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <button class="border border-orange-300 rounded-md p-5 hover:bg-orange-300 ">Login</button>
+        <button class="bg-yellow-300  rounded-md p-5 hover:bg-orange-300  ">Register</button>
+    </div>
+</nav>
+</div>
+
+</section>
+
+<!-- Banner section -->
+<section class="max-w-screen-xl mx-auto">   
+    <div >
+<div class="" >
+    <div class="space-y-6 " >
+        <h1 class="text-6xl adlam-font">Pamper Your Pet,<br>
+        Because They Deserve <br>
+        the Best</h1>
+        <p class="text-gray-500">
+            Discover a world of treats, toys, and essentials handpicked for <br>
+            your furry friends. Shop now and make tails wag with joy!
+        </p>
+        <button class="bg-yellow-300 hover:bg-orange-300  rounded-md p-5 text-2xl ">Find a pet</button>
+    </div>
+    <div class=" ">
+        <img src="image/cat-big.png" alt="" class="">
+    </div>
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+
 </body>
 </html>
